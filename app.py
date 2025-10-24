@@ -87,7 +87,7 @@ async def verify_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 🖼️ <code>/flux আপনার বর্ণনা</code> → AI ছবি (Image) তৈরি করুন  
 
 👑 <b>মালিক:</b> <a href="tg://user?id={OWNER_ID}">আমার মালিক</a>
-🛠️ <b>তৈরি করেছেন:</b> <a href="https://t.me/code_predator_acs">Code Predator</a>
+🛠️ <b>তৈরি করেছেন:</b> <a href="t.me/SHADOW_JOKER_CTH">SHADOW JOKER</a>
                 """,
                 parse_mode="HTML"
             )
@@ -125,7 +125,7 @@ async def about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 কোনো সমস্যা হলে মালিকের সাথে যোগাযোগ করুন।
 
 👑 <b>মালিক:</b> <a href="tg://user?id={OWNER_ID}">আমার মালিক</a>
-🛠️ <b>তৈরি করেছেন:</b> <a href="https://t.me/code_predator_acs">Code Predator</a>
+🛠️ <b>তৈরি করেছেন:</b> <a href="t.me/SHADOW_JOKER_CTH">SHADOW JOKER</a>
 """,
         parse_mode="HTML",
         reply_markup=reply_markup
@@ -251,7 +251,7 @@ async def flux(update: Update, context: ContextTypes.DEFAULT_TYPE):
 📝 <b>প্রম্পট:</b> {prompt}
 🚀 <b>অবস্থা:</b> সফলভাবে তৈরি হয়েছে!
 
-🛠️ <b>তৈরি করেছেন:</b> <a href="https://t.me/code_predator_acs">Code Predator</a>
+🛠️ <b>তৈরি করেছেন:</b> <a href="t.me/SHADOW_JOKER_CTH">SHADOW JOKER</a>
 """
             # বাইনারি কন্টেন্ট সরাসরি send_photo তে পাঠান
             await context.bot.send_photo(
@@ -295,4 +295,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
